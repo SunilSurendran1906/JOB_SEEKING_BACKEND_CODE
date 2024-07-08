@@ -14,7 +14,7 @@ config({ path: "./.env" });
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: ["https://job-seeking-application-url.netlify.app"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
